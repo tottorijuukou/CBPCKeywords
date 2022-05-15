@@ -40,9 +40,11 @@ Heretofore the only way to get jiggly armor or clothes in an 'immersive' (i.e. a
 
 This patcher will look for the CBPC keywords and use those if you're already using them so as not to gunk up your records with duplicate keys.  And if you don't, it will just add them to the synthesis patch (these 10 records really shouldn't affect your ability to ESLify it later unless you are already doing some VERY EXTREME PATCHING).  For modularity purposes it will read all the .json files in its internal data folder (this will end up in your Synthesis folder under Data/Skyrim Special Edition/BookUUNPCBPCKeywords if you do the presumed install from git thing) so you can just make your own new file if you want to add some things without wading through a bunch of previously existing .json junk.  The format for these files is pretty dirt simple:
 
-```{
+```
+{
 	"ThisIsTheARMOEditorID": [ "TheseCBPCKeywords", "GetAppliedTo", "YourSynthesisPatch" ]
-}```
+}
+```
 
 If you don't like my pre-built classifications, you can either find the records in the .json files and edit them or use the special file override.json, which is read last and is the only file that will override anything from the other .json files (otherwise it's first come first served).  bookuunp.json is the base file with the vanilla and Book of UUNP records and you can't rename or replace it or the patcher will fail and I will point to this part where I told you not to mess with it.
 
@@ -54,3 +56,7 @@ You might have noticed by the title that this thing was designed for at least on
 * Book of UUNP
 * Common Clothes and Armors (most of them)
 * BD's Armor and Clothes Replacer (the standalone versions)
+
+## Other notes on running
+
+This patcher only operates on ARMOs, so in the event you are doing multiple synthesis runs due to whatever limitation, run it with the group that edits ARMOs.
