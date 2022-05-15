@@ -175,7 +175,7 @@
 	"ClothesBarKeeperVariant": [ "CBPCAsNakedL", "CBPCAsNakedR" ],
 	"ClothesBlackSmith": [ "CBPCAsLightL", "CBPCAsLightR", "CBPCNoPushUpL", "CBPCNoPushUpR" ],
 	"ClothesBlackSmithVariant": [ "CBPCAsHeavyL", "CBPCAsHeavyR", "CBPCNoPushUpL", "CBPCNoPushUpR" ],
-	"ClothesChef": [ "CBPCAsLightL", "CBPCAsLightR", "CBPCNoPushUpL", "CBPCNoPushUpR" ],
+	"ClothesChef": [ "CBPCAsLightL", "CBPCAsLightR" ],
 	"ClothesCollegeRobesApprentice": [ "CBPCAsLightL", "CBPCAsLightR", "CBPCNoPushUpL", "CBPCNoPushUpR" ],
 	"ClothesCollegeRobesApprenticeVariant1": [ "CBPCAsLightL", "CBPCAsLightR", "CBPCNoPushUpL", "CBPCNoPushUpR" ],
 	"ClothesCollegeRobesApprenticeVariant2": [ "CBPCAsLightL", "CBPCAsLightR", "CBPCNoPushUpL", "CBPCNoPushUpR" ],
